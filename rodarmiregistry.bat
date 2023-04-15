@@ -1,9 +1,9 @@
 @echo off
 
-if exist bin (
+if exist target (
 	echo  *** Iniciando RMI Registry ***
-	cd bin
+	cd target\classes
 	start rmiregistry
 ) else (
-	echo  *** Diretorio bin nao existe ***
+	echo  *** Diretorio target nao existe ***
 )

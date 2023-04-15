@@ -1,8 +1,8 @@
 @echo off
 
-if exist bin (
+if exist target (
 	echo  *** Gerando Stubs ***
-	rmic -d bin -classpath bin CalculadoraImpl
+	rmic -d target\classes -classpath target\classes CalculadoraImpl
 ) else (
-	echo  *** Diretorio bin nao existe ***
+	echo  *** Diretorio target nao existe ***
 )
