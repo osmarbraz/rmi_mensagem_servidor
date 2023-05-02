@@ -3,7 +3,7 @@
 ## Contextualização
 
 - Programa servidor Java RMI de objeto de mensagens hello.
-- Use o repositório "rmi_cliente_mensagem" como o programa cliente.
+- Use o repositório "rmi_mensagem_cliente" como o programa cliente.
 
 ## Arquivos
 
